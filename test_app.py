@@ -41,6 +41,11 @@ def rule_based_recommendations(interest, level):
             "Intermediate": ["TensorFlow Basics", "Neural Networks", "Feature Engineering", "Hyperparameter Tuning"],
             "Advanced": ["Deep Learning", "Reinforcement Learning", "MLOps", "Transformer Models"]
         },
+        "Data Science": {
+            "Beginner": ["Python Basics", "Data Analysis with Pandas", "SQL Basics", "Data Visualization"],
+            "Intermediate": ["Machine Learning", "Time Series Analysis", "Big Data", "Deep Learning"],
+            "Advanced": ["AI Ethics", "Data Engineering", "NLP", "Computer Vision"]
+        },
         "Artificial Intelligence": {
             "Beginner": ["Introduction to AI", "Python for AI", "Search Algorithms", "Basic AI Ethics"],
             "Intermediate": ["Neural Networks", "Computer Vision", "NLP Basics", "Game AI"],
@@ -60,6 +65,16 @@ def rule_based_recommendations(interest, level):
             "Beginner": ["HTML & CSS", "JavaScript Basics", "Responsive Design", "Intro to GitHub"],
             "Intermediate": ["Frontend Frameworks (React, Vue)", "Backend Development (Node.js, Django)", "APIs", "Databases"],
             "Advanced": ["Progressive Web Apps", "Performance Optimization", "Security Best Practices", "Scalability"]
+        },
+        "Big Data Analytics": {
+            "Beginner": ["Introduction to Big Data", "Hadoop Basics", "SQL & NoSQL", "Data Warehousing"],
+            "Intermediate": ["Apache Spark", "Data Lakes", "ETL Pipelines", "Data Governance"],
+            "Advanced": ["Real-time Analytics", "Predictive Analytics", "AI & Big Data", "Scalability Techniques"]
+        },
+        "Game Development": {
+            "Beginner": ["Game Design Basics", "Unity Basics", "C# for Game Dev", "2D Game Development"],
+            "Intermediate": ["3D Game Development", "Physics Engines", "Multiplayer Game Dev", "AI in Games"],
+            "Advanced": ["Game Optimization", "VR & AR Development", "Advanced AI in Games", "Game Monetization"]
         },
         "Cloud Computing": {
             "Beginner": ["Cloud Basics", "AWS/GCP/Azure Intro", "Virtualization", "Storage & Databases"],
