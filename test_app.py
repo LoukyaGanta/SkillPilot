@@ -80,6 +80,31 @@ def rule_based_recommendations(interest, level):
             "Beginner": ["Cloud Basics", "AWS/GCP/Azure Intro", "Virtualization", "Storage & Databases"],
             "Intermediate": ["Cloud Security", "Kubernetes & Docker", "Serverless Computing", "Cost Optimization"],
             "Advanced": ["Cloud Architecture", "DevOps in Cloud", "Multi-cloud Strategies", "AI in Cloud"]
+        },
+        "Information Systems": {
+            "Beginner": ["Database Basics", "Networking Fundamentals", "System Analysis"],
+            "Intermediate": ["Enterprise Systems", "Cybersecurity Basics", "Cloud Computing"],
+            "Advanced": ["Blockchain in IS", "AI in IS", "Business Intelligence"]
+        },
+        "Graphic Design": {
+            "Beginner": ["Design Principles", "Adobe Photoshop Basics", "Typography"],
+            "Intermediate": ["Advanced Photoshop", "Illustrator", "Branding & Identity"],
+            "Advanced": ["UX/UI Design", "3D Graphics", "Motion Design"]
+        },
+        "User Interface Design": {
+            "Beginner": ["UI Basics", "Color Theory", "Figma Basics"],
+            "Intermediate": ["Wireframing", "Prototyping", "User Testing"],
+            "Advanced": ["Advanced UX Research", "Microinteractions", "Design Systems"]
+        },
+        "Digital Marketing": {
+            "Beginner": ["SEO Basics", "Content Marketing", "Social Media Strategies"],
+            "Intermediate": ["Paid Advertising", "Email Marketing", "Marketing Analytics"],
+            "Advanced": ["Growth Hacking", "Conversion Rate Optimization", "AI in Marketing"]
+        },
+        "IoT": {
+            "Beginner": ["Introduction to IoT", "Arduino Basics", "Sensor Interfacing"],
+            "Intermediate": ["Raspberry Pi", "IoT Networking", "Cloud Integration"],
+            "Advanced": ["IoT Security", "Edge Computing", "AI in IoT"]
         }
     }
     return pathways.get(interest, {}).get(level, [])[:15]
